@@ -1,2 +1,7 @@
-.env
-.learn
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
+client_id = os.environ.get("0e724116d5604b5a98695b83a31c0e2b")
+client_secret = os.environ.get("568c83764e0d425d9da292ecac700de8")
